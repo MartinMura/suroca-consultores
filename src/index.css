@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+
+/* navbar  */
+.nav-h{
+  height: 90px;
+}
+.logo{
+  width: 140px;
+}
+
+/* margin so navbar wont overlap */
+.div-top{
+  margin-top: 80px;
+  background-image: url("/public/images/background-logo.png");
+  background-repeat: round space;
+  background-size: 100px;
+  
+}
+/* footer */
+.footer{
+  height: 250px;
+}
+
+.footer li{
+  list-style: none;
+  border-bottom: 1px black solid;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* home */
+
+.home-width{
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  
+}
+
+/* Carousel */
+
+.carousel{
+  height: 350px
+}
+
+.carousel-image{
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/* .carousel-caption p, h5{
+  color: white;
+  background-color: black;
+  
+  
+} */
+
+/* contactanos */
+
+.contactanos{
+  
+  width: 100%;
+  border: solid 1px black;
+  margin-bottom: 50px;
+  padding: 0 20px 0 20px;
+}
+
+.contact-p{
+  width: 100%;
+  
+  margin-top: 20px;
+}
+
+.contact-btn{
+  width: 200px;
+  margin: 0 5px 0;
+  max-width: 100%;
+  
+}
+
+
+/* banners */
+
+.banner-img{
+  width: 100%;
+  max-width: 360px;
+  margin-bottom: 40px;
+  box-shadow: inset 0 0 0 1000px rgba(234, 255, 2, 0.2);
+}
+
+/* Servicios */
+
+
+  /* title */
+
+.servicios-title{
+  padding: 10px 0 10px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+  /* cards */
+
+.card{
+  width: 210px;
+  height: 300px;
+  max-height: 100%;
+  margin: 0 10px 0;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+  transform: scale(1);
+  transition: transform 0.6s;
+  
+}
+
+.card:hover{
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.card-body button{
+  position: relative;
+  left: 50px;
+  max-width: 100%;
+}
+
+.card-title{
+  text-align: center;
+}
+
+
+/* Frases */
+
+.frase-a{
+  border: 1px solid black;
+  padding: 30px 30px 30px 30px;
+  height: 200px;
+  margin: 20px;
+  
+}
+
+.frase-b{
+  border: 1px solid black;
+  height: 200px;
+  margin: 20px;
+}
+
+
+/* nosotros */
+
+.consultora-title{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+
+.consultora-p{
+  text-align: center;
+  color: white;
+}
+
+
+.miembros{
+  border-top: 5px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.member-image{
+  width:100%;
+  max-width: 100px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.member-description{
+  text-align: center;
+}
+
+.mission-vission{
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.headings-mision{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contacto */
+
+
+.container-form{
+  border-radius: 10px;
+  
+}
+
+.contacto-text{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.boton-enviar{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  justify-content: center;
+}
+
+#exampleFormControlInput2{
+  width: 400px;
+  
+  
+  
+}
+
+#exampleFormControlInput1{
+  width: 400px;
+  
+  
+}
+
+#exampleFormControlTextarea1{
+  width: 400px;
+  
+}
