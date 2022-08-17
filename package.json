@@ -1,7 +1,7 @@
 {
   "name": "consultora",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://martinmura.github.io/suroca-consultora/",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
