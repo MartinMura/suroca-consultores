@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/suroca-consultora/static/css/main.66e7ab73.css",
+    "main.js": "/suroca-consultora/static/js/main.aaddbbff.js",
+    "static/media/background-logo.png": "/suroca-consultora/static/media/background-logo.fc03c5e44f0a2b3e6ccf.png",
+    "index.html": "/suroca-consultora/index.html",
+    "main.66e7ab73.css.map": "/suroca-consultora/static/css/main.66e7ab73.css.map",
+    "main.aaddbbff.js.map": "/suroca-consultora/static/js/main.aaddbbff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66e7ab73.css",
+    "static/js/main.aaddbbff.js"
+  ]
+}
