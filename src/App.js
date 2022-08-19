@@ -12,6 +12,9 @@ import Home from "./components/Home"
 import Contacto from "./components/Contacto"
 import Nosotros from './components/Nosotros.js';
 import ScrollToTop from './components/ScrollToTop.js';
+import Optimizacion from './components/Optimizacion.js';
+import Analisis from './components/Analisis.js';
+import Gestion from './components/Gestion.js';
 
 
 function App() {
@@ -34,6 +37,15 @@ function App() {
               </Route>
               <Route path="/nosotros">
                 <Nosotros />
+              </Route>
+              <Route path="/optimizacion">
+                <Optimizacion />
+              </Route>
+              <Route path="/analisis">
+                <Analisis />
+              </Route>
+              <Route path="/gestion">
+                <Gestion />
               </Route>
           </Switch>
           </ScrollToTop>

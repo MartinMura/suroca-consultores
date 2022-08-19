@@ -1,11 +1,17 @@
+import {Link} from "react-router-dom"
+
 export default function Contactanos(){
     return(
         <>
             <div className="container contactanos align-items-center text-bg-secondary">
                 <div className="d-flex justify-content-around align-items-center ">
 
-                    <p className="contact-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum tincidunt interdum. Morbi nec nunc mauris.</p>
-                    <button type="button" className="contact-btn btn btn-danger ">Contáctanos</button>
+                    <p className="contact-p">Incrementamos los niveles de productividad y calidad para mejorar tu competitividad y generar valor a tus clientes.</p>
+                    <Link to="/contacto">
+                    <button type="button" className="contact-btn btn btn-danger ">
+                        Contáctanos
+                    </button>
+                    </Link>
 
                 </div>
 

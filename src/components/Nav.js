@@ -24,10 +24,9 @@ export default function Nav (){
                     Servicios
                   </Link>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Link</a></li>
-                    <li><a className="dropdown-item" href="#">Otro link</a></li>
-                    <li><hr className="dropdown-divider"/></li>
-                    <li><a className="dropdown-item" href="#">Otro link</a></li>
+                    <li><Link className="dropdown-item" to="/analisis">Análisis de métodos y tiempo</Link></li>
+                    <li><Link className="dropdown-item" to="/gestion">Gestión de capital humano</Link></li>
+                    <li><Link className="dropdown-item" to="/optimizacion">Optimizacion de procesos</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item">

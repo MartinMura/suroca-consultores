@@ -16,7 +16,6 @@ export default function Home (){
         <br/>
         <Servicios/>
         <br/>
-        <Frases/>
         
         </div>
     )

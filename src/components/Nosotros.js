@@ -10,7 +10,7 @@ export default function Nosotros(){
 
                 <div className="miembros">
                     <h3 className="member-nombre text-center my-2">
-                        Gissele Mura
+                        Cra. Gissele Mura
                     </h3>
                     <h6 className="member text-center my-2">
                         Consultor Senior
