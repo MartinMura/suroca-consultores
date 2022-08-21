@@ -13,7 +13,7 @@ export default function Nosotros(){
                         Cra. Gissele Mura
                     </h3>
                     <h6 className="member text-center my-2">
-                        Consultor Senior
+                        Consultora Asociada
                     </h6>
                     <img src="./images/profile-1.jfif" className="member-image"/>
 
@@ -22,26 +22,50 @@ export default function Nosotros(){
 
                 <div className="miembros">
                     <h3 className="member-nombre text-center my-2">
-                        Titulo + Nombre y apellido
+                        Cra. Natalia Álvarez
                     </h3>
                     <h6 className="member text-center my-2">
-                        Rol
+                        Consultora Asociada
                     </h6>
-                    <img src="./images/default-profile-image.jpg" className="member-image"/>
+                    <img src="./images/profile-2.png" className="member-image"/>
 
-                    <p className="member-description">Culpa dolor consectetur veniam ad tempor incididunt magna sunt adipisicing duis aliqua amet duis culpa. Esse aliqua laborum magna ad qui velit anim cillum nisi minim reprehenderit duis laborum aute. Ex velit occaecat consequat nostrud sit nostrud dolor dolore cupidatat culpa et. Do minim pariatur occaecat culpa amet incididunt proident reprehenderit ut commodo dolore voluptate dolor.</p>
+                    <p className="member-description">Contadora Pública Nacional y Licenciada en Administración Hotelera recibida en la Universidad Nacional de Quilmes con formación especializada en Administración, calidad de atención al cliente, docencia a nivel terciario y secundario y orientada al desarrollo empresarial sustentable. Con experiencia en empresas de servicios turísticas y auditoría en las áreas de Payroll y Beneficios</p>
                 </div>
 
                 <div className="miembros">
                     <h3 className="member-nombre text-center my-2">
-                        Titulo + Nombre y apellido
+                        Cra. Angela BATTISTA
                     </h3>
                     <h6 className="member text-center my-2">
-                        Rol
+                    Consultora Asociada
                     </h6>
-                    <img src="./images/default-profile-image.jpg" className="member-image"/>
+                    <img src="./images/profile-3.png" className="member-image"/>
 
-                    <p className="member-description">Culpa dolor consectetur veniam ad tempor incididunt magna sunt adipisicing duis aliqua amet duis culpa. Esse aliqua laborum magna ad qui velit anim cillum nisi minim reprehenderit duis laborum aute. Ex velit occaecat consequat nostrud sit nostrud dolor dolore cupidatat culpa et. Do minim pariatur occaecat culpa amet incididunt proident reprehenderit ut commodo dolore voluptate dolor.</p>
+                    <p className="member-description">Egresada de la Universidad Nacional de La Matanza con el título de Contadora Pública.  Ángela ha desarrollado por 25 años su trayectoria profesional a nivel Corporativo en Medianas y Grandes Empresas Comerciales e Industrias Nacionales e Internacionales. Posee un perfil analítico orientado a la mejora de procesos y análisis  contable.   Capacitada en el Instituto de Auditores Internos de Argentina (IAIA) con el Título de Análista de Auditoría Interna, Seminarios de Auditoría de Logística, Compras, detección de Fraude, Informes de Auditoría  y Papeles de Trabajo.  Armado  y análisis de Mapeo de Matriz de Riesgo integral de una organización. Colaboración en implementación de Sistema SAP para Módulo Contable / Tesorería/ Proveedores.  En la actualidad es responsable Hard de RRHH.</p>
+                </div>
+
+                <div className="miembros">
+                    <h3 className="member-nombre text-center my-2">
+                        Cra. Luciana Beni
+                    </h3>
+                    <h6 className="member text-center my-2">
+                        Consultora Asociada
+                    </h6>
+                    <img src="./images/profile-4.png" className="member-image"/>
+
+                    <p className="member-description">Contadora Pública Nacional, especialista en mejora de progresos administrativos, análisis de datos y automatización con RPA</p>
+                </div>
+
+                <div className="miembros">
+                    <h3 className="member-nombre text-center my-2">
+                        Lic. en Administración y Cr. Paez Martín
+                    </h3>
+                    <h6 className="member text-center my-2">
+                        Consultor Asociado
+                    </h6>
+                    <img src="./images/profile-5.jfif" className="member-image"/>
+
+                    <p className="member-description">Recibido en la Facultad de Ciencias Económicas de la UBA. Experiencia en manejo y formación de grupos, administración de tareas en empresas de distintos rubros y ámbitos económicos financieros, resolución de conflictos y negociación. Armado de estructura empresarial y control de procesos. Capacitación de personal en distintas áreas. Proyectos y plan de negocios Gran formación en distintos talleres y cursos afines a la profesión.</p>
                 </div>
 
                 <div className="mission-vission">
