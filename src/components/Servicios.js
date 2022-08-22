@@ -34,33 +34,7 @@ export default function Servicios(){
                         </Link>
                     </div>
                 </div>
-                <div class="card m-3" >
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <Link to="/">
-                        <button  class="btn btn-primary">+info</button>
-                        </Link>
-                    </div>
-                </div>
-                <div class="card m-3" >
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <Link to="/">
-                        <button  class="btn btn-primary">+info</button>
-                        </Link>
-                    </div>
-                </div>
-                <div class="card m-3" >
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <Link to="/">
-                        <button  class="btn btn-primary">+info</button>
-                        </Link>
-                    </div>
-                </div>
+                
                     
             </section>
         </div>

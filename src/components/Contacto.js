@@ -7,7 +7,7 @@ export default function Contacto(){
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9x35m8k', 'template_ynjmbap', form.current, 'dtsIlj5EHhtIpEhkm')
+        emailjs.sendForm('service_2zljphk', 'template_059r5ls', form.current, 'A5S34ztjXWYEnMRDY')
             .then((result) => {
                 console.log(result.text);
                 console.log("message sent")
