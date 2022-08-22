@@ -5,6 +5,8 @@ export default function Banners(){
                 
                 <img className="banner-img" src="../images/1.png"/>
                 <img className="banner-img" src="./images/2.png"/>
+                <div className="texto-sobre-img-1">Somos un equipo de profesionales multidisciplinarios, capaces de ayudarte a mejorar la producción & gestión</div>
+                <div className="texto-sobre-img-2">Trabajamos tanto con Pymes como con grandes empresas</div>
                 
             </div>
         </>
