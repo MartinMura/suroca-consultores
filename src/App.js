@@ -15,6 +15,7 @@ import ScrollToTop from './components/ScrollToTop.js';
 import Optimizacion from './components/Optimizacion.js';
 import Analisis from './components/Analisis.js';
 import Gestion from './components/Gestion.js';
+import NewHome from "./components/NewHome"
 
 
 function App() {
@@ -24,14 +25,20 @@ function App() {
 
         <Nav />
         <br />
+        <Switch>
+          <Route exact path="/newHome">
+              <NewHome />
+          </Route>
+        </Switch>
         <div className='div-top'>
-
+        
           <ScrollToTop>
             <Switch>
 
               <Route exact path="/">
                 <Home />
               </Route>
+              
               <Route path="/contacto">
                 <Contacto />
               </Route>
