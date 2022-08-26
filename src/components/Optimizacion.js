@@ -21,7 +21,7 @@ export default function Optimizacion(){
                 <div className="container contactanos align-items-center text-bg-secondary">
                     <div className="d-flex justify-content-around align-items-center ">
 
-                        <p className="contact-p">¿Necesitás ayuda?
+                        <p className="contact-p-servicios">¿Necesitás ayuda?
                         Analizamos todo tipo de problemas y encontramos las soluciones.</p>
                         <Link to="/contacto">
                         <button type="button" className="contact-btn btn btn-danger ">

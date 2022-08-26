@@ -25,19 +25,17 @@ function App() {
 
         <Nav />
         <br />
-        <Switch>
-          <Route exact path="/newHome">
-              <NewHome />
-          </Route>
-        </Switch>
-        <div className='div-top'>
+        {/* <Switch>
+          
+        </Switch> */}
         
           <ScrollToTop>
             <Switch>
-
-              <Route exact path="/">
-                <Home />
-              </Route>
+            <Route exact path="/">
+              <NewHome />
+          </Route>
+        <div className='div-top'>
+              
               
               <Route path="/contacto">
                 <Contacto />
@@ -54,11 +52,11 @@ function App() {
               <Route path="/gestion">
                 <Gestion />
               </Route>
+        </div>
           </Switch>
           </ScrollToTop>
           
 
-        </div>
         <Footer/>
       
       </Router>

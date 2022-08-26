@@ -24,9 +24,6 @@ code {
 /* margin so navbar wont overlap */
 .div-top{
   margin-top: 80px;
-  background-image: url("/public/images/background-logo.png");
-  background-repeat: round space;
-  background-size: 100px;
   
 }
 /* footer */
@@ -164,8 +161,15 @@ video{
   border-radius: 5px;
 }
 
+
 .contact-p{
   font-size: 2rem;
+  margin-top: 20px;
+}
+
+
+.contact-p-servicios{
+  font-size: 1rem;
   margin-top: 20px;
 }
 
